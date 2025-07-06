@@ -339,7 +339,7 @@ Project ini dilisensikan under **MIT License**. Lihat file [LICENSE](LICENSE) un
   <h3>✨ Jika aplikasi ini bermanfaat bagi Anda ✨</h3>
   <p>Silakan berikan ⭐ <strong>STAR</strong> di repository ini!</p>
   
-  <a href="https://github.com/Vinss-Store/spk_smart">
+  <a href="https://github.com/Vinss-Store/Aplikasi-Spk">
     <img src="https://img.shields.io/badge/⭐_Star_This_Repo-FFD700?style=for-the-badge&logo=github&logoColor=black" alt="Star This Repo"/>
   </a>
 </div>
