@@ -48,7 +48,7 @@ Dengan antarmuka yang modern dan integrasi penuh dengan **Firebase**, aplikasi i
 
 | 📊 Dashboard | 🧮 Hasil SMART | 📝 Input Data |
 |-------------|----------------|---------------|
-| ![](screenshots/dashboard.png) | ![](screenshots/hasil.png) | ![](screenshots/input.png) |
+| <img src="https://imgur.com/a/gXBIXIs" width="250"/> | <img src="https://imgur.com/VBjPMz9" width="250"/> | <img src="https://imgur.com/VODZKZ1" width="250"/> |
 
 ---
 
@@ -58,9 +58,9 @@ Dengan antarmuka yang modern dan integrasi penuh dengan **Firebase**, aplikasi i
 |------------------|--------|
 | 👨‍💻 Nama          | Vinss Official |
 | 📧 Email         | [vinssofc@gmail.com](mailto:vinssofc@gmail.com) |
-| 📸 Instagram     | [@maxxy.ofc](https://instagram.com/kahfi404.id) |
-| 🎥 YouTube       | [@MaxxyOfc](https://youtube.com/@VinssBotz) |
-| 🎵 TikTok        | [@maxxy.ofc](https://tiktok.com/@vinss404.id) |
+| 📸 Instagram     | [@kahfi404.id](https://instagram.com/kahfi404.id) |
+| 🎥 YouTube       | [@VinssBotz](https://youtube.com/@VinssBotz) |
+| 🎵 TikTok        | [@vinss404.id](https://tiktok.com/@vinss404.id) |
 
 ---
 
