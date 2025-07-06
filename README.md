@@ -1,16 +1,68 @@
-# spk_mobile
+# 🧠 SPK SMART – Sistem Pendukung Keputusan Berbasis Flutter
 
-A new Flutter project.
+**SPK SMART** adalah aplikasi mobile berbasis **Flutter** yang memanfaatkan metode **SMART (Simple Multi Attribute Rating Technique)** untuk membantu pengguna dalam mengambil keputusan **berdasarkan kriteria dan bobot yang ditentukan**.
 
-## Getting Started
+Dengan antarmuka yang modern dan integrasi penuh dengan **Firebase**, aplikasi ini cocok untuk digunakan dalam pengambilan keputusan seperti pemilihan supplier, pemilihan produk terbaik, dan lainnya.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Fitur Utama
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+| ✅ Fitur                           | 📋 Deskripsi                                                                 |
+|-----------------------------------|------------------------------------------------------------------------------|
+| 🔐 Autentikasi Aman               | Login dan registrasi dengan **Firebase Authentication**                     |
+| 📊 Perhitungan SMART              | Hitung nilai & rangking alternatif berdasarkan **bobot kriteria**            |
+| 📈 Grafik Analisis Visual         | Tampilkan hasil skor alternatif dalam **grafik batang interaktif**          |
+| 📝 Input Data Dinamis             | Tambahkan dan kelola **kriteria, alternatif, dan bobot** secara fleksibel   |
+| 👤 Manajemen Profil               | Simpan dan tampilkan data pengguna dari **Firestore**                       |
+| 🎨 Tampilan Modern & Responsif    | Desain **glassmorphism**, gradient, dan animasi halus untuk pengalaman UI terbaik |
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🧰 Teknologi & Tools
+
+| 🛠️ Teknologi / Library             | Kegunaan Utama                                                   |
+|-----------------------------------|------------------------------------------------------------------|
+| [Flutter](https://flutter.dev)    | Framework utama untuk UI dan interaksi pengguna                  |
+| [Firebase Auth](https://firebase.google.com/products/auth) | Autentikasi pengguna (login/register)                           |
+| [Cloud Firestore](https://firebase.google.com/products/firestore) | Penyimpanan data real-time untuk kriteria & pengguna          |
+| [FL Chart](https://pub.dev/packages/fl_chart) | Visualisasi data dalam bentuk grafik batang                      |
+| [Google Fonts](https://pub.dev/packages/google_fonts) & Icons | Tampilan teks & ikon custom                                      |
+| `setState` / `Provider`           | Manajemen state aplikasi                                         |
+
+---
+
+## 📱 Kebutuhan Sistem
+
+| Platform  | Minimum Requirement                      |
+|-----------|-------------------------------------------|
+| Flutter   | Versi **3.10+**                          |
+| Android   | Minimal **API 23 (Android 6.0)**         |
+| iOS       | Minimal **iOS 11**                       |
+| Firebase  | Sudah terkonfigurasi dan terhubung       |
+| Package   | Pastikan menjalankan `flutter pub get`   |
+
+---
+
+## 🖼️ Cuplikan Antarmuka
+
+| 📊 Dashboard | 🧮 Hasil SMART | 📝 Input Data |
+|-------------|----------------|---------------|
+| ![](screenshots/dashboard.png) | ![](screenshots/hasil.png) | ![](screenshots/input.png) |
+
+---
+
+## ⚙️ Cara Menjalankan Aplikasi
+
+```bash
+# Clone repo
+git clone https://github.com/username/spk_smart.git
+
+# Masuk ke direktori project
+cd spk_smart
+
+# Install dependency
+flutter pub get
+
+# Jalankan aplikasi
+flutter run
