@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "967773835765",
+    "project_id": "spk-mobile-abd63",
+    "storage_bucket": "spk-mobile-abd63.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967773835765:android:7f42fca04362e37a2c50bc",
+        "android_client_info": {
+          "package_name": "com.example.spk_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmLPIEnvajfcQ1HY-FGJ5ztA9qp9EJlK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

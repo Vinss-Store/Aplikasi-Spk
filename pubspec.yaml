@@ -1,0 +1,45 @@
+name: spk_mobile
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.64.0
+  cloud_firestore: ^5.6.10
+  firebase_core: ^3.15.0
+  firebase_auth: ^5.6.1
+  image_picker: ^1.0.4
+  firebase_database: 11.3.8
+  cupertino_icons: ^1.0.8
+  fluttertoast: ^8.2.12
+  firebase_storage: ^12.4.8
+  pdf: ^3.10.1
+  printing: ^5.12.0
+  excel: ^4.0.6
+  path_provider: ^2.0.15
+  permission_handler: ^11.0.1 # (untuk Android)
+  shared_preferences: ^2.5.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1  # Tambahkan ini
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"  # Path ke ikon aplikasi kamu
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/icon.png
