@@ -48,7 +48,7 @@ Dengan antarmuka yang modern dan integrasi penuh dengan **Firebase**, aplikasi i
 
 | 📊 Dashboard | 🧮 Hasil SMART | 📝 Input Data |
 |-------------|----------------|---------------|
-| <img src="https://imgur.com/a/gXBIXIs" width="250"/> | <img src="https://imgur.com/VBjPMz9" width="250"/> | <img src="https://imgur.com/VODZKZ1" width="250"/> |
+| <img src="https://i.imgur.com/VBjPMz9.png" width="250"/> | <img src="https://i.imgur.com/VODZKZ1.png" width="250"/> | <img src="https://i.imgur.com/VODZKZ1.png" width="250"/> |
 
 ---
 
