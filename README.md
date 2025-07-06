@@ -41,11 +41,6 @@
       <h4>📊 Perhitungan SMART</h4>
       <p>Algoritma SMART yang telah terbukti akurat untuk menghitung nilai & rangking alternatif berdasarkan <strong>bobot kriteria</strong>.</p>
     </td>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/color/48/000000/combo-chart.png" width="40"/>
-      <h4>📈 Grafik Analisis Visual</h4>
-      <p>Visualisasi hasil skor alternatif dalam <strong>grafik batang interaktif</strong> yang mudah dipahami.</p>
-    </td>
   </tr>
   <tr>
     <td align="center" width="33%">
