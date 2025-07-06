@@ -52,6 +52,18 @@ Dengan antarmuka yang modern dan integrasi penuh dengan **Firebase**, aplikasi i
 
 ---
 
+## 👨‍💻 Tentang Pembuat Aplikasi
+
+| Informasi Kontak | Detail |
+|------------------|--------|
+| 👨‍💻 Nama          | Vinss Official |
+| 📧 Email         | [vinssofc@gmail.com](mailto:vinssofc@gmail.com) |
+| 📸 Instagram     | [@maxxy.ofc](https://instagram.com/kahfi404.id) |
+| 🎥 YouTube       | [@MaxxyOfc](https://youtube.com/@VinssBotz) |
+| 🎵 TikTok        | [@maxxy.ofc](https://tiktok.com/@vinss404.id) |
+
+---
+
 ## ⚙️ Cara Menjalankan Aplikasi
 
 ```bash
