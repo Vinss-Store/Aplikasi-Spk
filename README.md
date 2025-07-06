@@ -32,31 +32,19 @@
 <table>
   <tr>
     <td align="center" width="33%">
-      <img src="https://img.icons8.com/color/48/000000/security-lock.png" width="40"/>
-      <h4>🔐 Autentikasi Aman</h4>
-      <p>Login dan registrasi dengan <strong>Firebase Authentication</strong>. Keamanan data pengguna terjamin dengan enkripsi tingkat enterprise.</p>
+      <img src="https://img.icons8.com/color/48/000000/user-account.png" width="40"/>
+      <h4>👤 Manajemen Profil</h4>
+      <p>Simpan dan tampilkan data pengguna dari <strong>Firestore</strong> dengan sinkronisasi real-time.</p>
     </td>
     <td align="center" width="33%">
       <img src="https://img.icons8.com/color/48/000000/calculator.png" width="40"/>
       <h4>📊 Perhitungan SMART</h4>
       <p>Algoritma SMART yang telah terbukti akurat untuk menghitung nilai & rangking alternatif berdasarkan <strong>bobot kriteria</strong>.</p>
     </td>
-  </tr>
-  <tr>
     <td align="center" width="33%">
       <img src="https://img.icons8.com/color/48/000000/data-configuration.png" width="40"/>
       <h4>📝 Input Data Dinamis</h4>
       <p>Tambahkan dan kelola <strong>kriteria, alternatif, dan bobot</strong> secara fleksibel sesuai kebutuhan.</p>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/color/48/000000/user-account.png" width="40"/>
-      <h4>👤 Manajemen Profil</h4>
-      <p>Simpan dan tampilkan data pengguna dari <strong>Firestore</strong> dengan sinkronisasi real-time.</p>
-    </td>
-    <td align="center" width="33%">
-      <img src="https://img.icons8.com/color/48/000000/design.png" width="40"/>
-      <h4>🎨 Tampilan Modern</h4>
-      <p>Desain <strong>glassmorphism</strong>, gradient, dan animasi halus untuk pengalaman UI terbaik.</p>
     </td>
   </tr>
 </table>
