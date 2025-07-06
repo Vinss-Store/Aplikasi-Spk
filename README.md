@@ -238,7 +238,7 @@ Project ini dilisensikan under **MIT License**. Lihat file [LICENSE](LICENSE) un
 ## 👨‍💻 Tentang Pembuat
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/profile-image.png" width="150" style="border-radius: 50%; border: 3px solid #4285F4;"/>
+  <img src="https://imgur.com/pFuwniA.png" width="150" style="border-radius: 50%; border: 3px solid #4285F4;"/>
   
   <h3>🔥 Vinss Official</h3>
   <p><em>Full Stack Developer & Mobile App Enthusiast</em></p>
