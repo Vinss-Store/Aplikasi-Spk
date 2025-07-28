@@ -36,10 +36,14 @@ dev_dependencies:
 flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/icon/icon.png"  # Path ke ikon aplikasi kamu
+  image_path: "assets/icon/icon.png"  
 
 flutter:
   uses-material-design: true
 
   assets:
     - assets/icon/icon.png
+    - assets/tutorial/login.jpg
+    - assets/tutorial/kriteria.png
+    - assets/tutorial/alternatif.jpg
+

@@ -7,7 +7,8 @@ class TutorialPage extends StatefulWidget {
   State<TutorialPage> createState() => _TutorialPageState();
 }
 
-class _TutorialPageState extends State<TutorialPage> with TickerProviderStateMixin {
+class _TutorialPageState extends State<TutorialPage>
+    with TickerProviderStateMixin {
   late final AnimationController _controller;
   late final Animation<Offset> _slideAnimation;
 
@@ -22,10 +23,9 @@ class _TutorialPageState extends State<TutorialPage> with TickerProviderStateMix
     _slideAnimation = Tween<Offset>(
       begin: const Offset(0.0, 0.2),
       end: Offset.zero,
-    ).animate(CurvedAnimation(
-      parent: _controller,
-      curve: Curves.easeOut,
-    ));
+    ).animate(
+      CurvedAnimation(parent: _controller, curve: Curves.easeOut),
+    );
 
     _controller.forward();
   }
@@ -40,8 +40,10 @@ class _TutorialPageState extends State<TutorialPage> with TickerProviderStateMix
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Tutorial Penggunaan',
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+        title: const Text(
+          'Tutorial Penggunaan',
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+        ),
         backgroundColor: const Color(0xFF1565C0),
         foregroundColor: Colors.white,
         elevation: 0,
@@ -77,10 +79,7 @@ class _TutorialPageState extends State<TutorialPage> with TickerProviderStateMix
                   title: 'Login ke Aplikasi',
                   description:
                       'Masukkan email dan password Anda untuk masuk ke aplikasi. Jika belum punya akun, daftar terlebih dahulu.',
-                  imageWidget: _buildStepImage(
-                    Icons.person_outline,
-                    const Color(0xFF4CAF50),
-                  ),
+                  imagePath: 'assets/tutorial/login.jpg',
                   color: const Color(0xFF4CAF50),
                 ),
                 _buildTutorialStep(
@@ -89,51 +88,19 @@ class _TutorialPageState extends State<TutorialPage> with TickerProviderStateMix
                   icon: Icons.edit_note_outlined,
                   title: 'Input Data Kriteria',
                   description:
-                      'Masukkan kriteria, bobot, dan alternatif. Pastikan total bobot = 1.0.',
-                  imageWidget: _buildStepImage(
-                    Icons.assignment_outlined,
-                    const Color(0xFF2196F3),
-                  ),
+                      'Masukkan kriteria, bobot Pastikan total bobot = 1.0.',
+                  imagePath: 'assets/tutorial/kriteria.png',
                   color: const Color(0xFF2196F3),
                 ),
                 _buildTutorialStep(
                   context: context,
                   stepNumber: '03',
-                  icon: Icons.analytics_outlined,
-                  title: 'Lihat Hasil Perhitungan',
+                  icon: Icons.edit_note_outlined,
+                  title: 'Input Data Alternatif',
                   description:
-                      'Pilih menu "Hasil Akhir" untuk melihat hasil perangkingan metode SMART.',
-                  imageWidget: _buildStepImage(
-                    Icons.trending_up,
-                    const Color(0xFFFF9800),
-                  ),
-                  color: const Color(0xFFFF9800),
-                ),
-                _buildTutorialStep(
-                  context: context,
-                  stepNumber: '04',
-                  icon: Icons.table_chart_outlined,
-                  title: 'Analisis Tabel Hasil',
-                  description:
-                      'Lihat hasil perhitungan dalam bentuk tabel untuk analisis mendalam.',
-                  imageWidget: _buildStepImage(
-                    Icons.grid_on,
-                    const Color(0xFF9C27B0),
-                  ),
-                  color: const Color(0xFF9C27B0),
-                ),
-                _buildTutorialStep(
-                  context: context,
-                  stepNumber: '05',
-                  icon: Icons.bar_chart,
-                  title: 'Visualisasi Grafik',
-                  description:
-                      'Lihat grafik interaktif di dashboard untuk pemahaman yang lebih mudah.',
-                  imageWidget: _buildStepImage(
-                    Icons.show_chart,
-                    const Color(0xFFE91E63),
-                  ),
-                  color: const Color(0xFFE91E63),
+                      'Masukkan Alternatif sesuai dengan kriteria yang digunakan.',
+                  imagePath: 'assets/tutorial/alternatif.jpg',
+                  color: const Color(0xFF2196F3),
                 ),
               ],
             ),
@@ -143,13 +110,14 @@ class _TutorialPageState extends State<TutorialPage> with TickerProviderStateMix
     );
   }
 
+  /// Widget untuk setiap langkah tutorial
   Widget _buildTutorialStep({
     required BuildContext context,
     required String stepNumber,
     required IconData icon,
     required String title,
     required String description,
-    required Widget imageWidget,
+    required String imagePath,
     required Color color,
   }) {
     return Container(
@@ -174,6 +142,7 @@ class _TutorialPageState extends State<TutorialPage> with TickerProviderStateMix
               children: [
                 Column(
                   children: [
+                    // Nomor step
                     Container(
                       width: 50,
                       height: 50,
@@ -202,21 +171,19 @@ class _TutorialPageState extends State<TutorialPage> with TickerProviderStateMix
                       ),
                     ),
                     const SizedBox(height: 12),
+                    // Ikon
                     Container(
                       padding: const EdgeInsets.all(8),
                       decoration: BoxDecoration(
                         color: color.withOpacity(0.1),
                         borderRadius: BorderRadius.circular(8),
                       ),
-                      child: Icon(
-                        icon,
-                        color: color,
-                        size: 24,
-                      ),
+                      child: Icon(icon, color: color, size: 24),
                     ),
                   ],
                 ),
                 const SizedBox(width: 20),
+                // Judul & deskripsi
                 Expanded(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -244,51 +211,40 @@ class _TutorialPageState extends State<TutorialPage> with TickerProviderStateMix
               ],
             ),
             const SizedBox(height: 16),
-            Container(
-              width: double.infinity,
-              height: 120,
-              decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [
-                    color.withOpacity(0.1),
-                    color.withOpacity(0.05),
-                  ],
-                ),
-                borderRadius: BorderRadius.circular(12),
-                border: Border.all(
-                  color: color.withOpacity(0.2),
-                  width: 1,
-                ),
+            // GAMBAR – otomatis menyesuaikan rasio
+            ClipRRect(
+              borderRadius: BorderRadius.circular(12),
+              child: Image.asset(
+                imagePath,
+                width: double.infinity,     // lebar penuh
+                fit: BoxFit.fitWidth,        // tinggi ikut rasio gambar
+                // Fallback jika file tidak ada
+                errorBuilder: (context, error, stackTrace) {
+                  return Container(
+                    height: 180,
+                    color: color.withOpacity(0.1),
+                    alignment: Alignment.center,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Icon(Icons.image_not_supported,
+                            size: 40, color: color.withOpacity(0.5)),
+                        const SizedBox(height: 8),
+                        Text(
+                          'Gambar tidak ditemukan',
+                          style: TextStyle(
+                            color: color.withOpacity(0.7),
+                            fontSize: 12,
+                          ),
+                        ),
+                      ],
+                    ),
+                  );
+                },
               ),
-              child: Center(child: imageWidget),
             ),
           ],
         ),
-      ),
-    );
-  }
-
-  Widget _buildStepImage(IconData icon, Color color) {
-    return Container(
-      width: 80,
-      height: 80,
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          colors: [color, color.withOpacity(0.7)],
-        ),
-        shape: BoxShape.circle,
-        boxShadow: [
-          BoxShadow(
-            color: color.withOpacity(0.3),
-            blurRadius: 10,
-            offset: const Offset(0, 4),
-          ),
-        ],
-      ),
-      child: Icon(
-        icon,
-        size: 40,
-        color: Colors.white,
       ),
     );
   }
